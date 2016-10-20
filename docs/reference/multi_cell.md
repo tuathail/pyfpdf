@@ -9,9 +9,9 @@ fpdf.multi_cell(w: float, h: float, txt: str, border = 0,
 
 This method allows printing text with line breaks. They can be automatic (as 
 soon as the text reaches the right border of the cell) or explicit (via the 
-`\n` character). As many cells as necessary are output, one below the other.
-Text can be aligned, centered or justified. The cell block can be framed and 
-the background painted.
+`\n` character). As many cells as necessary are output, one below the other,
+with one line per cell. Text can be aligned, centered or justified. The cell
+block can be framed and the background painted.
 
 ### Parameters ###
 
